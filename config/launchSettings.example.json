@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OnlineStore": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ONLINE_STORE_CONNECTION": "Server=127.0.0.1;Database=mamliga;User ID=YOUR_DB_USER;Password=YOUR_PASSWORD;"
+      }
+    }
+  }
+}

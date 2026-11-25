@@ -1,0 +1,62 @@
+# .NET build output, IDE settings and test results
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+.vscode/
+TestResults/
+coverage/
+node_modules/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.coverage
+*.coveragexml
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+appsettings.Development.json
+*.local.config
+/Mamaliga Windows/Properties/launchSettings.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Private SQL dumps; publish database/schema.sql instead
+mamliga*.sql
+*.dump.sql
+*.backup.sql
+/database/seed.private.sql
+
+# Unused legacy PHP example from the college copy
+/Mamaliga Windows/login.php
+
+# Temporary files, logs and OS metadata
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local database files and backups
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.db-wal
+*.db-shm
+*.zip
+*.7z
